@@ -1,0 +1,24 @@
+# Kompilierte Java-Dateien
+*.class
+
+# Build-/IDE-Ordner
+/bin/
+/out/
+/build/
+target/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
