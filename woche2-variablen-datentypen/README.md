@@ -1,15 +1,45 @@
 # Woche 2 – Variables, Data Types & Strings
 
-**w3schools:** Java Variables, Data Types, Type Casting, Strings, User Input
-**ETH-Modul:** 1 (Variablen und Datentypen)
-
-## Lernziele
+## 🎯 Lernziele
 - Variablen deklarieren, initialisieren, neu zuweisen.
 - Die wichtigsten Datentypen und ihre Grössen kennen.
 - Implizite vs. explizite Typkonvertierung (Typecasting) verstehen.
 - Mit `String` arbeiten und Tastatureingaben über `Scanner` einlesen.
 
-## Kurztheorie
+## 📝 Schritt-für-Schritt Anleitung (DAU-sicher)
+Bitte HALTE DICH GENAU an diese Reihenfolge. Nichts überspringen!
+
+**1. Theorie lesen (Grundlagen)**
+* Lies auf **w3schools** folgende Kapitel: *Java Variables, Data Types, Type Casting, Strings, User Input*
+* Lies das Begleit-PDF der ETH: [p_java1_TH.pdf](https://doc.et.ethz.ch/latest/p_java1_TH.pdf) (Modul 1)
+
+**2. Abschreiben & Verstehen (Nicht kopieren!)**
+* Öffne den Ordner `examples/`.
+* Mache dich mit den Beispielen vertraut (`Variablen.java`, `Typecasting.java`, `Eingabe.java`).
+* Tippe den Code **selbst ab** – Kopieren ist verboten! Dein Gehirn muss sich die Befehle "ertippen".
+* Führe den Code aus und spiele mit den Werten (ändere z.B. mal einen `int` zu einem `double` und schau was passiert):
+  ```bash
+  cd examples
+  javac Variablen.java && java Variablen
+  javac Typecasting.java && java Typecasting
+  javac Eingabe.java && java Eingabe      # erwartet Tastatureingabent
+  ```
+
+**3. Übungen lösen (Selber schwitzen)**
+* Öffne `uebungen/Uebung02_Rechner.java` und ergänze den Code. 
+* Bleib am Ball, auch wenn es nicht sofort klappt!
+  ```bash
+  cd ../uebungen
+  javac Uebung02_Rechner.java && java Uebung02_Rechner
+  ```
+
+**4. Lösung kontrollieren & Abhaken**
+* Wenn dein Programm zwei Zahlen problemlos zusammenrechnet (ohne crashen), vergleiche deine Lösung mit `loesungen/`.
+* Gehe zu `FORTSCHRITT.md` im Hauptverzeichnis und hake die Aufgaben ab.
+
+---
+
+## 🧠 Kurztheorie
 
 Eine **Variable** ist ein benannter Speicherbereich. Drei Schritte:
 1. **Deklaration** – Typ + Name: `int a;`
@@ -42,15 +72,3 @@ import java.util.Scanner;
 Scanner eingabe = new Scanner(System.in);
 int x = eingabe.nextInt();      // oder nextDouble(), nextLine() ...
 ```
-
-## Beispiele ausführen
-```bash
-cd examples
-javac Variablen.java && java Variablen
-javac Typecasting.java && java Typecasting
-javac Eingabe.java && java Eingabe      # erwartet Tastatureingaben
-```
-
-## Übung
-`uebungen/Uebung02_Rechner.java`: zwei Zahlen einlesen und Summe, Differenz,
-Produkt, Quotient ausgeben.

@@ -9,19 +9,23 @@ Worten, **lauffähige Beispiele** und **Übungen mit Lösungen**.
 
 ---
 
-## So lernst du mit diesem Repo
+## So lernst du mit diesem Repo (DAU-sichere Methode)
 
-Pro Woche immer in dieser Reihenfolge:
+Um sicherzustellen, dass die Lernqualität immer hoch bleibt und du dich nicht selbst "betrügst", halte dich zwingend an diese Reihenfolge. Keine Abkürzungen!
 
-1. **Lesen:** das `README.md` der Woche (Lernziele + Kurztheorie).
-2. **w3schools:** die dort verlinkten Kapitel des Java-Tutorials durcharbeiten.
-3. **Beispiele ausführen:** die Dateien in `examples/` kompilieren, laufen lassen, **verändern**.
-4. **Selbst programmieren:** die `uebungen/` lösen (es sind Lücken mit `TODO` drin).
-5. **Vergleichen:** erst danach in `loesungen/` schauen.
-6. **Abhaken:** in `FORTSCHRITT.md`.
+1. **Lernziele klären:** Das `README.md` der Woche lesen, um zu wissen, worum es geht.
+2. **Theorie & Verstehen:** Die verlinkten w3schools-Kapitel und ETH-PDFs lesen. 
+3. **Abtippen, nicht kopieren:** Die Dateien im Ordner `examples/` öffnen. Versuche, den Code selbst in eine leere Datei abzutippen (Copy-Paste ist **verboten**!). Führe ihn aus und **verändere** absichtlich Werte, um zu sehen, was passiert, wenn etwas falsch ist oder anders läuft.
+4. **Selber schwitzen:** Die `uebungen/` lösen. Nicht direkt aufgeben! Probiere mindestens 20-30 Minuten selbst. Erst wenn du einen *Compiler Error* hast, googelst du die Fehlermeldung.
+5. **Code Validation:** Läuft das Programm ohne Fehler? Macht es das, was die Aufgabe verlangt? Erst wenn es absolut fehlerfrei kompiliert und läuft, geht es weiter.
+6. **Solution Check:** Jetzt erst in `loesungen/` schauen. Was hast du gut gemacht? Wo weicht deine Lösung ab?
+7. **Erklären (Feynman-Methode):** Erkläre dir selbst (oder deinem Hund / einer Gummiente) *laut*, was du gerade gelernt hast.
+8. **Tracker:** Die jeweilige Checkbox in [FORTSCHRITT.md](FORTSCHRITT.md) abhaken.
 
-> Wichtig: Tipp den Code wirklich selbst ab und lass ihn laufen. Lesen allein
-> reicht beim Programmieren nicht – das Verständnis kommt über die Finger.
+> 🛑 **Die 3 Regeln des Programmier-Lernens:**
+> 1. **KEIN Copy-Paste!** Dein Gehirn lernt durch das Tippen auf der Tastatur. Wer Beispiele oder Lösungen kopiert, verliert.
+> 2. **Lass es crashen!** Fehler (Exceptions) sind gut. Provoziere sie bewusst, lese die rote Fehlermeldung und lerne, sie zu verstehen.
+> 3. **Nicht gleich die Lösung anschauen.** Ein grosser Teil der Arbeit in der Informatik ist Frustrationstoleranz. Halte durch, bis es klappt!
 
 ---
 
